@@ -1,0 +1,6 @@
+.botoes{
+    padding: 0.1em;
+    text-align: center;
+    border-radius: 16px;
+    background-color: var(--RosaDois);
+}

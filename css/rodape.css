@@ -1,0 +1,10 @@
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--RosaQuatro);
+    align-items: center;
+}
+
+.lista-item-footer{
+    list-style: none;
+}
