@@ -93,10 +93,12 @@ p{
 
 .formulario input{
     width: 50%;
+    border: none;
 }
 
 .formulario textarea{
     width: 50%;
+    border: none;
 }
 
 .formulario-submit{
