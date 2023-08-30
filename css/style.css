@@ -66,20 +66,23 @@ p{
     width: 80px;
     background-color: var(--RosaQuatro);
     border-radius: 48px;
+    
 }
 
 .sessão-informacoes{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    width: 100%;
     max-width: 100%;
     text-align: center;
-    margin: 0 0 1em 0;
+    margin: 0 auto;
+    height: 50vh;
 }
 
 .sessão-informacoes-informacoes{
     margin: 0 5%;
+    
 }
 
 .sessão-informacoes-texto{
@@ -93,13 +96,11 @@ p{
 
 .formulario input{
     width: 50%;
-    border: none;
     background-color: var(--RosaTres);
 }
 
 .formulario textarea{
     width: 50%;
-    border: none;
     background-color: var(--RosaTres);
 }
 
