@@ -97,11 +97,14 @@ p{
 .formulario input{
     width: 50%;
     background-color: var(--RosaTres);
+    border-radios: 16px
+
 }
 
 .formulario textarea{
     width: 50%;
     background-color: var(--RosaTres);
+    border-radios: 16px
 }
 
 .formulario-submit{
